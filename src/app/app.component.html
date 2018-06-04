@@ -1,0 +1,22 @@
+<form>
+  
+  <fieldset>
+    <legend>My Budget for May </legend>
+ <label> TRANSPORT  </label><br>
+  <input type="text"  #num1><br> <br>
+  <label>Food</label><br>
+  <input type="text" #num2> <br><br>
+
+  <label>Black Tax </label><br>
+  <input type="text" #num3><br><br>
+
+  <label>Entertainment</label><br>
+  <input type="text" #num4> <br>
+
+  <button (click)="Calculate(num1.value ,num2.value ,num3.value,num4.value)" >Calculate</button>
+
+
+  <p>{{c}}</p>
+
+</fieldset>
+</form>
